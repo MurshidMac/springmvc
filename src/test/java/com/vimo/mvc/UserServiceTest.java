@@ -5,7 +5,6 @@ import com.vimo.repository.RoleRepository;
 import com.vimo.repository.UserRepository;
 import com.vimo.service.UserService;
 
-import javax.jws.soap.SOAPBinding.Use;
 
 import org.junit.Before;
 import org.junit.Test;
