@@ -8,19 +8,19 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MvcApplicationTests {
-	private UserServiceTest UserServiceTest;
+	//private UserServiceTest UserServiceTest;
 	@Test
 	public void contextLoads() {
 
 	}
 
-	@Test
-	public void testFindUserByEmail(){
-		UserServiceTest.testFindUserByEmail();
-	}
+	// @Test
+	// public void testFindUserByEmail(){
+	// 	UserServiceTest.testFindUserByEmail();
+	// }
 
-	@Test
-	public void testSaveUser(){
-		UserServiceTest.testSaveUser();
-	}
+	// @Test
+	// public void testSaveUser(){
+	// 	UserServiceTest.testSaveUser();
+	// }
 }
